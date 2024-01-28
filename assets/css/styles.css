@@ -1,0 +1,233 @@
+
+.contenedorflex {display: flex; 
+ }
+.contenedorsidebar {width:20% ; }
+.contenedorcuerpo {width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+.hand {height: 500px;
+width: 500px;}
+
+
+   .contenedorcuerpo p {
+   height: 50px;
+    width: 450px;
+    text-align: center;
+    margin: 10px;
+    color: #828485;
+    font-family: 'Roboto'
+  }
+
+  .contenedorcuerpo {
+ display: flex;
+    flex: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contenedorcuerpo h1 {text-align: center;
+    margin: 10px;font-family: 'Roboto'
+    ;
+  color: #828485;}
+
+  h2 {color: #828485;   font-family: 'Roboto'; text-align: center} 
+  h1 {color: #828485;   font-family: 'Roboto'}
+
+
+  .contenedorsidebar p {
+ 
+    color: #687075;
+    font-size: small;
+
+  
+  }
+
+
+  .boton {display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid; color: #ccc;
+padding: 20%;
+}
+
+button {background-color: #cdc3e6;; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+button:hover{
+  background-color: #ccc; 
+}
+
+.suguru img
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+
+.suguru {border: 1px solid #E8EBE4;
+justify-content: space-between;
+padding: 20px; 
+align-items: center;
+font-size: 13px; 
+}
+
+.suguru p{color: #1B1F21;
+    padding: 0%;
+    margin: 0%;}
+
+
+.satoru {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px;
+
+}
+.satoru img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.satoru p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+text-align: center;   font-family: 'Roboto'}
+
+.megumi {border: 1px solid #E8EBE4
+;justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px;
+
+}
+.megumi img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.megumi p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+text-align: center;   font-family: 'Roboto'}
+  
+.toji {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px; 
+}
+.toji img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.toji p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+text-align: center;   font-family: 'Roboto'}
+  
+.sukuna {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px;
+}
+.sukuna img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.sukuna p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+text-align: center; font-family: 'Roboto'}
+
+
+.jk {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px;
+}
+.jk img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.jk p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+text-align: center;   font-family: 'Roboto'}
+
+.yoongi {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 20px; 
+align-items: center;
+font-size: 15px;
+text-align: center;
+}
+.yoongi img 
+{width: 60px;
+height: 60px;
+border-radius: 80%;
+justify-content: space-between;
+padding: 20px;}
+.yoongi p
+{color: #444749;
+  padding: 0%;
+  margin: 0%;
+align-items: center;
+font-family: 'Roboto'; 
+
+}
+.suguru:hover {
+  background-color:  #BEC1BB; 
+
+}
+.satoru:hover {
+  background-color:  #BEC1BB; 
+
+}
+.megumi:hover {
+  background-color:  #BEC1BB; 
+
+}
+.toji:hover {
+  background-color: #BEC1BB; 
+
+}
+.sukuna:hover {
+  background-color:  #BEC1BB; 
+
+}
+.jk:hover {
+  background-color: #BEC1BB; 
+
+}
+
+.yoongi:hover {
+  background-color: #BEC1BB; 
+}
