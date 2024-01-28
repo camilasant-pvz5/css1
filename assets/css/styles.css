@@ -1,231 +1,140 @@
 
-.contenedorflex {display: flex; 
- }
-.contenedorsidebar {width:20% ; padding: 0%;}
-.contenedorcuerpo {width: 80%;
-display: flex;
-align-items: center;
-justify-content: center;}
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
 
-
-.hand {height: 500px;
-width: 500px;}
-
-
-   .contenedorcuerpo p {
-   height: 50px;
-    width: 450px;
-    text-align: center;
-    margin: 10px;
-    color: #828485;
-    font-family: 'Roboto'
-  }
-
-  .contenedorcuerpo {
- display: flex;
-    flex: 80%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .contenedorcuerpo h1 {text-align: center;
-    margin: 10px;font-family: 'Roboto'
-    ;
-  color: #828485;}
-
-  h2 {color: #828485;   font-family: 'Roboto'; text-align: center} 
-  h1 {color: #828485;   font-family: 'Roboto'}
-
-
-  .contenedorsidebar p {
- 
-    color: #687075;
-    font-size: small;
-  }
-
-  .boton {display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid; color: #ccc;
-padding: 2%;
 }
 
-button {background-color: #cdc3e6;; 
-  border: none;
-  color: white;
-  padding: 10px 20px;
+.contenedorprincipal {
+  display: flex;
+  
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 20%;
+  border: 2px solid rgb(126, 126, 126);
+  background-color: #dad1f0;
+}
+
+.seccionprincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.imagenprincipal {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px; 
-  cursor: pointer;
-  transition: background-color 0.3s; 
-}
-button:hover{
-  background-color: #ccc; 
 }
 
-.suguru img
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px;}
+.p {
+  width: 500%;
+}
 
-.suguru {border: 1px solid #E8EBE4;
-justify-content: space-between;
-padding: 10px; 
-align-items: center;
-font-size: 13px; 
+.geto {
+  display: flex;
+  border: 2px solid rgb(126, 126, 126);
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+
+
+  }
+
+.boton{
+  border: 1px solid rgb(126, 126, 126);
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+
+      }
+      
+.nuevochat{
+  width: 100%;
+  background-color: #A491D2;
+padding: 10;
+border: 50%;
+color: white;
 
 }
-.suguru p{color: #1B1F21;
-    padding: 0%;
-    margin: 0%;}
-
-
-.satoru {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 5px; 
-align-items: center;
-font-size: 15px;
-
+.nuevochat:hover {background-color: #BEC1BB;}
+.contactcontaneir{
+  display: flex;
+  border: 1px solid rgb(126, 126, 126);
+  justify-content: flex-start; 
+  gap: 10px;
+  margin: 0;
+  padding: 10px;
 }
-.satoru img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px;}
-.satoru p
-{color: #444749;
-  padding: 0%;
-  margin: 0%;
-text-align: center;   font-family: 'Roboto'}
-
-.megumi {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 5px; 
-align-items: center;
-font-size: 15px;
-
-}
-.megumi img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px;}
-.megumi p
-{color: #444749;
-  padding: 0%;
-  margin: 0%;
-text-align: center;   font-family: 'Roboto';}
+.contactext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
   
-.toji {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 5px; 
-align-items: center;
-font-size: 15px; 
 }
-.toji img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px; }
-.toji p
-{color: #444749;
-  padding: 5px;
-  margin: 0%;
-text-align: center;   font-family: 'Roboto'}
+
+.contactext h4{
+  margin: 0;
+     text-align: left;
+  width: 100%;
+  }
+.contactext p{
+  margin: 0;
+  line-height: 0.8em;
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.gojoimg { 
+  background: url("../img/Satoru.jpg") center no-repeat;
+  background-size: 100%;
   
-.sukuna {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 20px; 
-align-items: center;
-font-size: 15px;
-}
-.sukuna img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 2px;}
-.sukuna p
-{color: #444749;
-  padding: 0%;
-  margin: 0%;
-text-align: center; font-family: 'Roboto'}
-
-
-.jk {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 5px; 
-align-items: center;
-font-size: 15px;
-
-}
-.jk img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px;}
-.jk p
-{color: #444749;
-  padding: 0%;
-  margin: 0%;
-text-align: center;   font-family: 'Roboto'}
-
-.yoongi {border: 1px solid #E8EBE4;
-  justify-content: space-between;
-  padding: 2px; 
-align-items: center;
-font-size: 15px;
-text-align: center;
-}
-.yoongi img 
-{width: 60px;
-height: 60px;
-border-radius: 80%;
-justify-content: space-between;
-padding: 20px;}
-.yoongi p
-{color: #444749;
-  padding: 0%;
-  margin: 0%;
-align-items: center;
-font-family: 'Roboto'; 
-
-}
-.suguru:hover {
-  background-color:  #BEC1BB; 
-
-}
-.satoru:hover {
-  background-color:  #BEC1BB; 
-
-}
-.megumi:hover {
-  background-color:  #BEC1BB; 
-
-}
-.toji:hover {
-  background-color: #BEC1BB; 
-
-}
-.sukuna:hover {
-  background-color:  #BEC1BB; 
-
-}
-.jk:hover {
-  background-color: #BEC1BB; 
-
+ 
 }
 
-.yoongi:hover {
-  background-color: #BEC1BB; 
+.textgojo {
+  width: 150px;
 }
+
+.megimg{ 
+  background: url("../img/Megumi.jpg") center no-repeat;
+  background-size: 100%;
+}
+
+.tojiimg{
+  background: url("../img/Toji.jpg") center no-repeat;
+  background-size: 100%;
+}
+
+.sukunaimg{
+  background: url("../img/Sukuna.jpg") center no-repeat;
+  background-size: 100%;
+}
+
+.jungkookimg{
+  background: url("../img/JK.jpg") center no-repeat;
+  background-size: 100%;
+}
+.yoongiimg{
+  background: url("../img/yoongi.jpeg") center no-repeat;
+  background-size: 100%;
+}
+
+.getoimg{
+  background: url("../img/Suguru.jpg") center no-repeat;
+  background-size: 100%;
+}
+
+.toji:hover{background-color: #BEC1BB;}
+
+.contactcontaneir:hover {background-color: #f2f5f0;}
