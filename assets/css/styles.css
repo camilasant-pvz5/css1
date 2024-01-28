@@ -122,7 +122,7 @@ color: white;
 }
 
 .jungkookimg{
-  background: url("../img/JK.jpg") center no-repeat;
+  background: url("../img/Jk.jpg") center no-repeat;
   background-size: 100%;
 }
 .yoongiimg{
@@ -135,6 +135,6 @@ color: white;
   background-size: 100%;
 }
 
-.toji:hover{background-color: #BEC1BB;}
+
 
 .contactcontaneir:hover {background-color: #f2f5f0;}
