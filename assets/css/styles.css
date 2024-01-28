@@ -6,12 +6,12 @@ body {
 
 }
 
-.contenedorprincipal {
+.contenedorpadre {
   display: flex;
   
 }
 
-.columna {
+.sidebar {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-family: 'Roboto';
 }
 
 .imagenprincipal {
@@ -37,7 +38,7 @@ body {
 
 .geto {
   display: flex;
-  border: 2px solid rgb(126, 126, 126);
+  border: 1px solid rgb(126, 126, 126);
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
@@ -51,17 +52,27 @@ body {
   display: flex;
   justify-content: center;
   padding: 20%;
+ 
 
       }
       
-.nuevochat{
-  width: 100%;
-  background-color: #A491D2;
-padding: 10;
-border: 50%;
-color: white;
-
+.newchat{
+ 
+background-color: #c0afec;; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
 }
+
+
+
 .nuevochat:hover {background-color: #BEC1BB;}
 .contactcontaneir{
   display: flex;
@@ -76,7 +87,8 @@ color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 15px; 
+ 
   
 }
 
@@ -88,6 +100,8 @@ color: white;
 .contactext p{
   margin: 0;
   line-height: 0.8em;
+  color: #828485;
+  font-family: 'Roboto';
 }
 
 .avatar{
@@ -102,7 +116,7 @@ color: white;
  
 }
 
-.textgojo {
+.textgeto {
   width: 150px;
 }
 
@@ -134,7 +148,6 @@ color: white;
   background: url("../img/Suguru.jpg") center no-repeat;
   background-size: 100%;
 }
-
 
 
 .contactcontaneir:hover {background-color: #f2f5f0;}
