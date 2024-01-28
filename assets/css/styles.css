@@ -1,7 +1,7 @@
 
 .contenedorflex {display: flex; 
  }
-.contenedorsidebar {width:20% ; }
+.contenedorsidebar {width:20% ; padding: 0%;}
 .contenedorcuerpo {width: 80%;
 display: flex;
 align-items: center;
@@ -42,16 +42,13 @@ width: 500px;}
  
     color: #687075;
     font-size: small;
-
-  
   }
-
 
   .boton {display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid; color: #ccc;
-padding: 20%;
+padding: 5%;
 }
 
 button {background-color: #cdc3e6;; 
@@ -79,11 +76,11 @@ padding: 20px;}
 
 .suguru {border: 1px solid #E8EBE4;
 justify-content: space-between;
-padding: 20px; 
+padding: 10px; 
 align-items: center;
 font-size: 13px; 
-}
 
+}
 .suguru p{color: #1B1F21;
     padding: 0%;
     margin: 0%;}
@@ -91,7 +88,7 @@ font-size: 13px;
 
 .satoru {border: 1px solid #E8EBE4;
   justify-content: space-between;
-  padding: 20px; 
+  padding: 5px; 
 align-items: center;
 font-size: 15px;
 
@@ -108,9 +105,9 @@ padding: 20px;}
   margin: 0%;
 text-align: center;   font-family: 'Roboto'}
 
-.megumi {border: 1px solid #E8EBE4
-;justify-content: space-between;
-  padding: 20px; 
+.megumi {border: 1px solid #E8EBE4;
+  justify-content: space-between;
+  padding: 5px; 
 align-items: center;
 font-size: 15px;
 
@@ -125,11 +122,11 @@ padding: 20px;}
 {color: #444749;
   padding: 0%;
   margin: 0%;
-text-align: center;   font-family: 'Roboto'}
+text-align: center;   font-family: 'Roboto';}
   
 .toji {border: 1px solid #E8EBE4;
   justify-content: space-between;
-  padding: 20px; 
+  padding: 5px; 
 align-items: center;
 font-size: 15px; 
 }
@@ -138,10 +135,10 @@ font-size: 15px;
 height: 60px;
 border-radius: 80%;
 justify-content: space-between;
-padding: 20px;}
+padding: 20px; }
 .toji p
 {color: #444749;
-  padding: 0%;
+  padding: 5px;
   margin: 0%;
 text-align: center;   font-family: 'Roboto'}
   
@@ -156,7 +153,7 @@ font-size: 15px;
 height: 60px;
 border-radius: 80%;
 justify-content: space-between;
-padding: 20px;}
+padding: 2px;}
 .sukuna p
 {color: #444749;
   padding: 0%;
@@ -166,9 +163,10 @@ text-align: center; font-family: 'Roboto'}
 
 .jk {border: 1px solid #E8EBE4;
   justify-content: space-between;
-  padding: 20px; 
+  padding: 5px; 
 align-items: center;
 font-size: 15px;
+
 }
 .jk img 
 {width: 60px;
@@ -184,7 +182,7 @@ text-align: center;   font-family: 'Roboto'}
 
 .yoongi {border: 1px solid #E8EBE4;
   justify-content: space-between;
-  padding: 20px; 
+  padding: 2px; 
 align-items: center;
 font-size: 15px;
 text-align: center;
